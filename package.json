@@ -1,0 +1,27 @@
+{
+  "name": "igreel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "i": "^0.3.7",
+    "next": "12.1.5",
+    "node-html-parser": "^5.3.3",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "sitemap": "^7.1.1"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
+}

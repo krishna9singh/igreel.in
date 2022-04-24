@@ -1,0 +1,38 @@
+html,
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5{
+    text-align: center;
+}
+p{
+  font-size: 1.1rem;
+  text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 999px) {
+  h1,h2,h3,h4,h5{
+
+  font-size: 3.3rem;
+  width: 65rem;
+  margin-left: 11.5rem;
+  }
+  p{
+    font-size: 3.3rem;
+    text-align: center;
+    width: 85rem;
+  }
+
+}
